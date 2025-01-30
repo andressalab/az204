@@ -23,4 +23,4 @@ steps:
     containerRegistry: 'acrapidiolab02'
     repository: 'apidiolab02'
     command: 'buildAndPush'
-    Dockerfile: 'https://github.com/andressalab/az204/blob/main/Dockerfile' 
+    Dockerfile: 'Dockerfile' 
