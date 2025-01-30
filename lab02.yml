@@ -18,11 +18,9 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-# Only a test file
 - task: Docker@2
   inputs:
     containerRegistry: 'acrapidiolab02'
     repository: 'apidiolab02'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
-# 
+    Dockerfile: '**/Dockerfile' 
