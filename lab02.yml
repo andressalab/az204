@@ -1,4 +1,4 @@
-trigger:
+trigger: 
 - main
 
 pool:
@@ -23,4 +23,4 @@ steps:
     containerRegistry: 'acrapidiolab02'
     repository: 'apidiolab02'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile' 
+    Dockerfile: 'https://github.com/andressalab/lab2/blob/c5044256cbb511d63ac72087a6af965d23f3668a/Dockerfile' 
