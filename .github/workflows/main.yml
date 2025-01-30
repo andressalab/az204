@@ -1,0 +1,7 @@
+name: lab02
+on:
+  push:
+    branches: [main]
+jobs:
+  lab02:
+    runs-on: ubuntu
